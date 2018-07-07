@@ -1,0 +1,64 @@
+.container, .root {
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #4c4a89;
+}
+h2, .bio, .bio > a {
+  margin: 2rem auto;
+  color: white;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  margin: 7rem auto;
+  width: 60vw;
+  justify-items: center;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr, 1fr;
+  grid-row-gap: 15px;
+  grid-column-gap: 5px;
+  grid-template-areas:
+  'break session'
+  'timer timer'
+  'buttons buttons';  
+}
+
+.wrapper > div {
+  border-radius: 15px;
+  border: 1px solid #a5a4c4;
+  padding: .7rem;
+  width: 9rem;
+  font-size: 1.8rem;
+}
+
+.break { grid-area: break; }
+.session { grid-area: session; }
+.timer { 
+  grid-area: timer;
+  text-align: center;
+  background: transparent;
+  color: white;
+}
+.timerButtons { 
+  grid-area: buttons;
+  margin-top: 0;
+  border: none !important;
+  text-align: center;
+}
+
+.wrapper > div > button { 
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+.session > span, .break > span { margin: auto 1rem; }
+
+.break, .session { 
+  background-color: #87894a;
+  text-align: center;
+  color: #302f57;
+}

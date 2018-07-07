@@ -1,0 +1,33 @@
+{
+  "name": "pomodoroclock",
+  "version": "1.0.0",
+  "description": "timer to use for working and breaks",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicardoL-AFati/fccFrontEnd-pomodoroClock.git"
+  },
+  "author": "Ricardo Ledesma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicardoL-AFati/fccFrontEnd-pomodoroClock/issues"
+  },
+  "homepage": "https://github.com/RicardoL-AFati/fccFrontEnd-pomodoroClock#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
